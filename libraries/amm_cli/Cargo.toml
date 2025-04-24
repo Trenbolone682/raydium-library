@@ -7,8 +7,8 @@ edition = "2021"
 devnet = ["raydium_amm/devnet"]
 
 [dependencies]
-anchor-client = "=0.29.0"
-anchor-lang = "=0.29.0"
+anchor-client = "=0.30.1"
+anchor-lang = "=0.30.1"
 serum_dex = { version = "0.5.10", git = "https://github.com/raydium-io/openbook-dex", default-features = false, features = [
     "client",
     "no-entrypoint",
@@ -23,8 +23,8 @@ spl-associated-token-account = { version = "2.2.0", features = [
     "no-entrypoint",
 ] }
 spl-token-2022 = { version = "=0.9.0", features = ["no-entrypoint"] }
-solana-client = "<1.17.0"
-solana-sdk = "<1.17.0"
+solana-client = "<1.18.0"
+solana-sdk = "<1.18.0"
 anyhow = "1.0.53"
 safe-transmute = "0.11.2"
 arrayref = "0.3.6"
